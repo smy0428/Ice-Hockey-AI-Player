@@ -1,6 +1,6 @@
 # Ice-Hockey-AI-Player
 UT Summer 2021 Deep Learning Final Project
-(Implementation detail has been omitted in order to preserve the integrity of the assignment)
+Implementation detail has been omitted in order to preserve the integrity of the assignment
 
 Team Members: Siyuan Shi, Siddhartha Arora
 
