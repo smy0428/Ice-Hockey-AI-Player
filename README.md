@@ -35,14 +35,14 @@ We implemented various game strategies. Our two players has their different role
 
 ### 5. Optimisations
 
-With our first version of the model and the controller, our agent could score 3 goals against the blue AI and score 1 goal against the red AI. 
+With our first version of the model and the controller, our agent score 3 goals against the blue AI and score 1 goal against the red AI. 
 
 We figured that the training data was produced by the AI karts upon which we had no control and for which the puck was not visible for approximately 50% of the time, and hence the data was not very efficient. Our controller was well built till this time and we were chasing the puck for the majority of the time. We hence generated new training data by making our agents play against AI and previously only the AI is involved. 
 
-With our second version of the model and the controller, our agent could score 3 goals against the blue AI and score 2 goals against the red A.
+With our second version of the model and the controller, our agent score 3 goals against the blue AI and score 2 goals against the red AI.
 
 After a couple of mock tournaments we were still not satisfied with the number of goals our agent was scoring. As our agent was playing even better, we decided to generate the training data this time by making our agents play against each other and not involve AI at all. At the same time we realised that our model was not adhering to the time limit and hence we decided to make our model thinner by decreasing the number of channels in all layers. By doing so we were able to decrease the overall runtime to approximately 37% of our earlier time. 
 
-With our latest version of the model and the controller, our agent could score 4 goals against the blue AI and score 3 goals against the red AI.
+With our latest version of the model and the controller, our agent score 4 goals against the blue AI and score 3 goals against the red AI.
 
 
