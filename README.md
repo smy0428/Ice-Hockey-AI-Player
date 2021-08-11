@@ -4,6 +4,8 @@
 
 Implementation detail has been omitted in order to preserve the integrity of the assignment
 
+https://user-images.githubusercontent.com/61920576/129111754-168d121f-02a4-45d0-aa83-f15a875284bd.mp4
+
 
 ### 1. Introduction
 Upon reading the objective of the problem, we figured out that there were 2 approaches to solving this. One was to apply reinforcement learning and try to imitate the AI and the other was to apply supervised learning to try to figure out the puck location and then build a sophisticated controller around it. After watching the AI play a number of times we thought that the first approach would not be the best because we saw that the AI was not a perfect agent to learn from as in our perspective it was not good enough in playing the game. We hence decided to go with the second approach and that worked well for us.
